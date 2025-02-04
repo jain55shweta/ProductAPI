@@ -24,4 +24,8 @@ Create a database using ef migrations project (code first approach).
 
 **How to Test API**
 
+Please Add DB Connection value in appsetting.json file like - 
+"ConnectionStrings": {
+  "DefaultConnection": "DBConnectionValue"
+}, 
 Please run the ProductAPI project, it will open SwaggerUI page and it will provide all the api endpoints.
